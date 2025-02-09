@@ -1,1 +1,50 @@
+body{
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
 
+#signUp {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+
+	font-family: "Lexend", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+
+	display:flex;
+}
+
+#colorPicker{
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+
+	font-family: "Lexend", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+
+	display:none;
+}
+
+#logUp {
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+
+	font-family: "Lexend", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+
+}

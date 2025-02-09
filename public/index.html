@@ -1,1 +1,67 @@
+<!doctype html>
+<html>
+	<head>
+		<title>game</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+		<title></title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+	</head>
+	<body>
+		<div id="signUp">
+			<h2>Sign Up:</h2>
+			<br>
+			<label>User:</label>
+			<input type="text" id="user" name="user" placeholder="Username">
+			<br>
+			<label>Password:</label>
+			<input type="password" id="pass" name="pass" placeholder="Password">
+			<br>
+			<button id="sign" onclick="submit()">Sign Up</button>
+			<label id="signUpError"></label>
+			<br>
+			<!--too good-->
+			<!--log down button-->
+			<br>
+			<button id="switchPage" onclick="switchPage(1)">Go to Log In</button>
+		</div>
+		<div id="logUp">
+			<h2>Log In:</h2>
+			<br>
+			<label>User:</label>
+			<input type="text" id="userLog" name="userLog" placeholder="Username">
+			<br>
+			<label>Password:</label>
+			<input type="password" id="passLog" name="passLog" placeholder="Password">
+			<br>
+			<button id="sign" onclick="submitLog()">Log down</button>
+			<label id="logUpError"></label>
+			<br>
+			<br>
+			<button id="switchPage" onclick="switchPage(2)">Go to Sign Up</button>
+		</div>
+		<div id="colorPicker">
+
+				<h1>Color</h1>
+			<br>
+			<label>Color:</label>
+			<input type="color" id="color"></input>
+			<button id="submitColors">Submit</button>
+		</div>
+		<canvas id="playerCanvas"></canvas>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
+
+
+
 

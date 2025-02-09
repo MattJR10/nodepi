@@ -659,7 +659,7 @@ function runGame() {
 		canvas.width,
 		canvas.height,
 	);
-	drawBackground();
+	//drawBackground();
 	
 	updateCoord();
 	for (var i = 0; i < players.length; i++) {
